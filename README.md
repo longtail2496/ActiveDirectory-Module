@@ -1,6 +1,9 @@
 # ActiveDirectory PowerShell Module
-Backup of Microsoft ActiveDirectory module DLL file
-Microsoft.ActiveDirectory.Management.dll (v.10.0.17763.1490)
+Backup of Microsoft ActiveDirectory module (x64 and x86 versions).
+`ActiveDirectory.ps1` script is a simple powershell script to import the module based on the system architecture (x86/x64).
+
+## Usage:
+Either run `ActiveDirectory.ps1` from powershell prompt (no elevation required) or if it is required to manually import the module, go to either of the *x86* or *x64* directory and run `ipmo .\ActiveDirectory.psd1` 
 
 ## Installation/Download Instruction:
 The ActiveDirectory module cannot be installed directly in PowerShell with Install-Module command and requires RSAT to be installed in Windows Server. Installation instructions are collected from below mentioned sources:
@@ -13,3 +16,7 @@ The ActiveDirectory module is intended for Remote management of Active directory
 ## References:
 1. https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/active-directory-enumeration-with-ad-module-without-rsat-or-admin-privileges
 2. https://github.com/samratashok/ADModule
+3. https://social.technet.microsoft.com/Forums/en-US/8b4146bf-ca9e-43f8-8cac-471f3a17faf6/help-importmodule-activedirectory-from-remote-server-share?forum=winserverpowershell
+
+## ActiveDirectory.ps1 Script Reference:
+1. https://stackoverflow.com/questions/31977657/determining-32-64-bit-in-powershell
