@@ -3,7 +3,7 @@ Backup of Microsoft ActiveDirectory module (x64 and x86 versions).
 `ActiveDirectory.ps1` script is a simple powershell script to import the module based on the system architecture (x86/x64).
 
 ## Usage:
-Either run `ActiveDirectory.ps1` from powershell prompt (no elevation required) or if it is required to manually import the module, go to either of the *x86* or *x64* directory and run `ipmo .\ActiveDirectory.psd1` 
+Either run `ActiveDirectory.ps1` from powershell prompt (no elevation required) or if it is required to manually import the module, go to either of the *x86* or *x64* directory based on os architecture and run `ipmo .\ActiveDirectory.psd1` 
 
 ## Installation/Download Instruction:
 The ActiveDirectory module cannot be installed directly in PowerShell with Install-Module command and requires RSAT to be installed in Windows Server. Installation instructions are collected from below mentioned sources:
