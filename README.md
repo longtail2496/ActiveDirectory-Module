@@ -20,3 +20,4 @@ The ActiveDirectory module is intended for Remote management of Active directory
 
 ## ActiveDirectory.ps1 Script Reference:
 1. https://stackoverflow.com/questions/31977657/determining-32-64-bit-in-powershell
+2. https://stackoverflow.com/questions/5466329/whats-the-best-way-to-determine-the-location-of-the-current-powershell-script
