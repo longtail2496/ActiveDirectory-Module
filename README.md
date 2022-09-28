@@ -1,4 +1,4 @@
-# ActiveDirectory-Module
+# ActiveDirectory PowerShell Module
 Backup of Microsoft ActiveDirectory module DLL file
 Microsoft.ActiveDirectory.Management.dll (v.10.0.17763.1490)
 
