@@ -5,7 +5,7 @@ Backup of Microsoft ActiveDirectory module (x64 and x86 versions).
 ## Usage:
 Either run `ActiveDirectory.ps1` from powershell prompt (no elevation required) or if it is required to manually import the module, go to either of the *x86* or *x64* directory based on os architecture and run `ipmo .\ActiveDirectory.psd1` 
 
-## Installation/Download Instruction:
+## RSAT Installation/Download Instruction:
 The ActiveDirectory module cannot be installed directly in PowerShell with Install-Module command and requires RSAT to be installed in Windows Server. Installation instructions are collected from below mentioned sources:
 1. https://www.varonis.com/blog/powershell-active-directory-module
 2. https://4sysops.com/wiki/how-to-install-the-powershell-active-directory-module/
